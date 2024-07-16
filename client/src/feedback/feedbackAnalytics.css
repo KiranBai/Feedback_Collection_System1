@@ -1,0 +1,116 @@
+    .feedback-analytics-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); /* New background color */
+    color: #333; /* General text color */
+    border-radius: 15px;
+  }
+  
+  .analytics-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000; /* Black text for better contrast */
+  }
+  
+  .section-heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #000; /* Black text for better contrast */
+  }
+  
+  .overview-metrics {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .overview-metrics p {
+    color: #000; /* Black text for better contrast */
+  }
+  
+  .recent-feedback-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .feedback-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff; /* White background for feedback items */
+  }
+  
+  .feedback-details {
+    margin-bottom: 10px;
+  }
+  
+  .feedback-user {
+    font-weight: bold;
+    color: #000; /* Black text for better contrast */
+  }
+  
+  .feedback-rating {
+    margin-bottom: 5px;
+    color: #000; /* Black text for better contrast */
+  }
+  
+  .feedback-comments {
+    font-style: italic;
+    margin-bottom: 5px;
+    color: #000; /* Black text for better contrast */
+  }
+  
+  .feedback-meta {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .feedback-indicators {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .satisfaction-indicator, .ease-of-use-indicator, .features-indicator {
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.8rem;
+  }
+  
+  .satisfaction-indicator {
+    width: 120px;
+  }
+  
+  .ease-of-use-indicator {
+    width: 100px;
+  }
+  
+  .features-indicator {
+    width: 120px;
+  }
+  
+  .very-satisfied {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  .satisfied {
+    background-color: #8BC34A; /* Light Green */
+  }
+  
+  .neutral {
+    background-color: #FFC107; /* Yellow */
+  }
+  
+  .dissatisfied {
+    background-color: #FF9800; /* Orange */
+  }
+  
+  .very-dissatisfied {
+    background-color: #F44336; /* Red */
+  }
+  
+  
